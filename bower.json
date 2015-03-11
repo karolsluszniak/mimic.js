@@ -1,0 +1,32 @@
+{
+  "name": "mimic",
+  "version": "3.0.0",
+  "authors": [
+    "Carlos Eduardo Goncalves",
+    "Karol Sluszniak <ksluszniak@gmail.com>"
+  ],
+  "description": "JavaScript XML-RPC Client supporting both sync and async requests",
+  "main": "source/mimic.js",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "xml",
+    "rpc",
+    "xml-rpc",
+    "xmlrpc",
+    "client",
+    "sync",
+    "async"
+  ],
+  "license": "MIT, GPLv3",
+  "homepage": "https://github.com/karolsluszniak/mimic.js",
+  "ignore": [
+    "doc",
+    "node_modules",
+    "bower_components",
+    ".components",
+    "test",
+    "tests"
+  ]
+}
