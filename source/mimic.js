@@ -238,7 +238,7 @@ XmlRpcRequest.prototype.setHeader = function(name, value) {
  *
  * @return XmlRpcResponse object.
  */
-XmlRpcRequest.prototype.send = function() {
+XmlRpcRequest.prototype.send = function(callback) {
 	// Vars
 	var xml_params = "",
 	    i = 0,
